@@ -40,6 +40,8 @@ function destructivelyRemoveElementFromEndOfArray(v) {
 }
 
 function removeElementFromEndOfArray(v) {
-  a = v.slice(-1);
+  a = v.slice(0, v.lenght -1);
   return a;
 }
+
+
