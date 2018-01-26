@@ -10,12 +10,12 @@ function destructivelyAddElementToBeginningOfArray(v, e) {
   return v;
 }
 
-function addElementToEndOfArray(v,e) {
-  v = [v,...e];
+function addElementToEndOfArray(v, e) {
+  v = [v, ...e];
   return v;
 }
 
-function destructivelyAddElementToEndOfArray(v,e) {
+function destructivelyAddElementToEndOfArray(v, e) {
   v.push(e);
   return v;
 }
